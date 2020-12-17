@@ -1,0 +1,19 @@
+body {
+    height: 95vh;
+    width: 95;
+    display: flex; /*Alinha horizontalmente no meio*/
+    justify-content: center;
+    align-items: center; /*Alinha verticalmente no meio*/
+    flex-direction: column;
+    background: #484847;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} .snake {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: white;
+} h1 {
+    padding: 5px;
+    border-style: solid;
+    border-width: 2px;
+}
